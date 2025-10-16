@@ -1,0 +1,41 @@
+
+.containerFullWidth{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.topbar{
+    width: 1200px;
+    padding-bottom: 1rem;
+    background-color: antiquewhite;
+}
+
+.topLinks{
+    padding-top: .5rem;
+    justify-items: end;
+}
+
+
+.linksList li{
+    display: inline-flex;
+    padding-left: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    
+}
+a{
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+.header{
+    display: flex;
+    width: 1200px;
+}
+
+.preLogo{
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: 3px;
+}

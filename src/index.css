@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme{
+    --color-orange: #ff6000;
+}
+
+*{
+    margin: 0;
+    letter-spacing: -.025em ;
+    box-sizing: border-box;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.15;
+}
+
+body{
+    color: #484848;
+    font-family: "Ariel", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
