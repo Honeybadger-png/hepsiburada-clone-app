@@ -2,13 +2,13 @@
 .containerFullWidth{
     display: flex;
     justify-content: center;
-    background-color: aqua;
+
 }
 
 .topbar{
     width: 1200px;
     padding-bottom: 1rem;
-    background-color: antiquewhite;
+
 }
 
 .topLinks{
@@ -40,4 +40,16 @@ a{
     font-size: large;
     font-weight: 900;
     letter-spacing: 3px;
+    color: #551a8b;
+}
+
+.ChildMenuItems{
+    width: 1200px;
+    min-height: 300px;
+    background: #551a8b;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    top: 56px;
+    left: 0;
 }
