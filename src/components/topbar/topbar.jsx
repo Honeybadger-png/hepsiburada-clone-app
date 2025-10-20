@@ -1,4 +1,10 @@
 import './topbar.css'
+import Header from './header';
+import NavigationBar from './navigation-bar';
+
+
+
+
 
 const Topbar = () => {
     return (
@@ -36,16 +42,8 @@ const Topbar = () => {
                         <li><a href="">Hepsiburada'da Satici Ol</a></li>
                     </ul>
                 </div>
-                <div className='header'>
-                    <div className='flex flex-col justify-items-center'>
-                        <div><h1 className='text-4xl font-bold text-orange'>hepsiburada</h1></div>
-                        <div className='flex justify-center'>
-                            <p class="preLogo">PREMIUM</p>
-                        </div>
-                    </div>
-                    <div></div>
-                    <div></div>
-                </div>
+                <Header />
+                <NavigationBar />
             </div>
         </div>
        
