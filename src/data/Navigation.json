@@ -1,0 +1,161 @@
+
+{
+    "MainCategory" : [
+        {
+            "id" : 1,
+            "name" : "Elektronik",
+            "slug" : "elektronik",
+            "children" : [
+                {
+                    "name" : "Bilgisayar/Tablet",
+                    "slug" : "bilgisayar-tablet",
+                    "children" : [
+                        {
+                            "name" : "Laptop",
+                            "slug" : "laptop",
+                            "children" : [
+                                "Notebook",
+                                "Oyun Bilgisayari",
+                                "Ikisi bir arada"
+                            ]
+                        },
+                        {
+                            "name" : "Tablet",
+                            "slug" : "slug",
+                            "children" : [
+                                "Apple",
+                                "Samsung",
+                                "Lenovo",
+                                "Alcatel",
+                                "Hometech",
+                                "Huawei",
+                                "Reeder",
+                                "Casper",
+                                "Diger"
+                            ]
+                        },
+                        {
+                            "name" : "Masaustu",
+                            "slug" : "masaustu",
+                            "children" : [
+                                "All-in-one",
+                                "Masaustu",
+                                "Mini"
+                            ]
+                        },
+                        {
+                            "name" : "Oyuncu Ozel",
+                            "slug" : "oyuncu-ozel",
+                            "children": [
+                                "Klavye",
+                                "Mouse",
+                                "Kulaklik",
+                                "Oyun Bilgisayari",
+                                "Monitor",
+                                "Oyun Donanimlari",
+                                "oyuncu Masasi",
+                                "oyuncu Koltugu"
+                            ]
+                        },
+                        {
+                            "name" : "Veri Depolama",
+                            "slug" : "veri-depolama",
+                            "children" : [
+                                "Usb bellek",
+                                "tasinabilir disk"
+                            ]
+                        },
+                        {
+                            "name" : "Tum Bilgisayarlar",
+                            "slug" : "tum-bilgisayarlar"
+                        },
+                        {
+                            "name" : "Bilgisayar Bilesenleri",
+                            "slug" : "bilgisayar-bilesenleri",
+                            "children" : [
+                                "Anakart",
+                                "Ekran Kartlari",
+                                "Bellek",
+                                "Islemciler",
+                                "Disk",
+                                "Kasa"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Yazicilar & Projeksiyon",
+                    "slug" : "yazicilar-projeksiyon"
+                },
+                {
+                    "name" : "Telefon & Telefon Aksesuarlari",
+                    "slug" : "telefon-telefon-aksesuarlari"
+                },
+                {
+                    "name" : "Tv, Goruntu & Ses Sistemleri",
+                    "slug" : "tv-goruntu-ses-sistemleri"
+                },
+                {
+                    "name" : "Beyaz Esya",
+                    "slug" : "beyaz-esya"
+                },
+                {
+                    "name" : "Klima ve Isiticilar",
+                    "slug" : "klima-ve-isiticilar"
+                },
+                {
+                    "name" : "Elektrikli Ev Aletleri",
+                    "slug" : "elektrikli-ev-aletleri"
+                },
+                {
+                    "name" : "Foto & Kamera",
+                    "slug" : "foto-kamera"
+                },
+                {
+                    "name" : "Oyun & Konsollari",
+                    "slug" : "oyun-konsollari"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "Moda",
+            "slug" : "moda"
+        },
+        {
+            "id" : 3,
+            "name" : "Ev, Yasam, Kirtasiye, Ofis",
+            "slug" : "ev-yasam-kirtasiye-ofis"
+        },
+        {
+            "id" : 4,
+            "name" : "Oto, Bahce, Yapi, Market",
+            "slug" : "oto"
+        },
+        {
+            "id" : 5,
+            "name" : "Anne, Bebek, Oyuncak",
+            "slug" : "anne"
+        },
+        {
+            "id" : 6,
+            "name" : "Spor, Outdoor",
+            "slug" : "spor"
+        },
+        {
+            "id" : 7,
+            "name" : "Kozmetik, Kisisel Bakim",
+            "slug" : "kozmetik"
+        },
+        {
+            "id" : 8,
+            "name" : "Supermarket, Pet Shop",
+            "slug" : "supermarket"
+        },
+        {
+            "id" : 9,
+            "name" : "Kitap, Muzik, Film, Hobi",
+            "slug" : "kitap"
+        }
+    ]
+}
