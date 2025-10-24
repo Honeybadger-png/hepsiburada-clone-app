@@ -120,42 +120,82 @@
         {
             "id" : 2,
             "name" : "Moda",
-            "slug" : "moda"
+            "slug" : "moda",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         },
         {
             "id" : 3,
             "name" : "Ev, Yasam, Kirtasiye, Ofis",
-            "slug" : "ev-yasam-kirtasiye-ofis"
+            "slug" : "ev-yasam-kirtasiye-ofis",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         },
         {
             "id" : 4,
             "name" : "Oto, Bahce, Yapi, Market",
-            "slug" : "oto"
+            "slug" : "oto",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         },
         {
             "id" : 5,
             "name" : "Anne, Bebek, Oyuncak",
-            "slug" : "anne"
+            "slug" : "anne",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         },
         {
             "id" : 6,
             "name" : "Spor, Outdoor",
-            "slug" : "spor"
+            "slug" : "spor",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         },
         {
             "id" : 7,
             "name" : "Kozmetik, Kisisel Bakim",
-            "slug" : "kozmetik"
+            "slug" : "kozmetik",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         },
         {
             "id" : 8,
             "name" : "Supermarket, Pet Shop",
-            "slug" : "supermarket"
+            "slug" : "supermarket",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         },
         {
             "id" : 9,
             "name" : "Kitap, Muzik, Film, Hobi",
-            "slug" : "kitap"
+            "slug" : "kitap",
+            "children" : [
+                {
+                    "name" : "Deneme"
+                }
+            ]
         }
     ]
 }

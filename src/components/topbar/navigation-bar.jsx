@@ -1,14 +1,12 @@
 import './topbar.css'
 import NavigationData from "../../data/Navigation.json";
 import { useEffect, useState } from 'react';
+import ChildMenuCard from './child-menu-card';
 
 const NavigationBar = () => {
     const [hoveredCategory, setHoveredCategory] = useState(-1);
 
 
-    useEffect(()=> {
-        console.log(NavigationData);
-    })
 
     return (
         <div className="w-full">
@@ -23,32 +21,18 @@ const NavigationBar = () => {
                         {
                             NavigationData.MainCategory.map((categories)=> {
                                 return (
-                                    <>
-                                        <li className='flex h-full items-center px-[22px] hover:bg-white' key={categories.id} onMouseEnter={()=> setHoveredCategory(categories.id)} onMouseLeave={()=> setHoveredCategory(-1)}>
-                                            <span>{categories.name}</span>   
-                                        </li>
-
-                                            {
-                                                hoveredCategory !== -1 ? (
-                                                    <div className="ChildMenuItems">
-                                                        <div className='flex pt-8'>
-                                                            <div className='w-2/10 min-h-[300px] bg-amber-600 px-4'>
-                                                                <ul>
-                                                                    <li>Bilgisayar/Tablet</li>
-                                                                </ul>
-                                                            </div>
-                                                            <div className='w-8/10 min-h-[300px]'>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                ) : null
-                                            }
-
-
-                                    </>
+                                    
+                                    <li className='flex h-full items-center px-[22px] hover:bg-white' key={categories.id} onMouseEnter={()=> setHoveredCategory(categories.id)} onMouseLeave={()=> setHoveredCategory(-1)}>
+                                        <span>{categories.name}</span>   
+                                    </li>
+                                    
                                 )
                             })
+                        }
+                        {
+                            hoveredCategory !== -1 ? (
+                                <ChildMenuCard key={hoveredCategory-1}  categories={NavigationData.MainCategory[hoveredCategory-1]} />
+                            ) : null
                         }
                     </ul>
                 </div>
